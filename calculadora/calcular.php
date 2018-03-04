@@ -21,7 +21,6 @@
     <h1>Calculadora</h1>
     </header>
     </div>
-    </div>
     <section class="col-md-12">
     <?php 
         $calculo;
@@ -52,5 +51,6 @@
         }
     ?>
     </section>
+</div>
 </body>
 </html>
