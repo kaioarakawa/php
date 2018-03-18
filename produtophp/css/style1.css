@@ -1,0 +1,38 @@
+
+header {
+    background:    #e2171d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+body section{
+    background: #F5D8A5;
+}
+body section{
+    padding-top: 25px; 
+}
+body div#asd{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+
+footer{
+    background:    #e2171d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+footer p{
+    
+    font: weight;
+    color:white;
+    
+}
+
+html {
+    background: #e2171d;
+}

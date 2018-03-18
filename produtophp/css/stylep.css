@@ -1,0 +1,23 @@
+
+header {
+    background:    #e2171d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* 
+section {
+    color: white;
+    background-image: url("/img/yakimiojo.png");
+	background-repeat: no-repeat;
+    padding-top: 25px;
+    height: 500px;
+
+} */
+
