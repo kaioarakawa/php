@@ -1,18 +1,27 @@
-<?php include_once "src/partials/_head.php"; ?>
+<?php include_once "src/partials/_heade.php"; ?>
 <?php include_once "src/partials/_header.php"; ?>
 <body>
 <section id="as" class="col-md-12">
     
 
 
-    <form method="GET" action=/src/editar.php>
+    <form method="GET" action=/src/editars.php>
+    
         <div class="container">
+            <div class="form-group row">
+                <label for="Nome" class="col-sm-2 col-form-label">Nome para Alterar</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="NomeAlt" name="NomeAlt" required />
+                    </div>
+            </div>
+
             <div class="form-group row">
                 <label for="Nome" class="col-sm-2 col-form-label">Nome</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="Nome" name="Nome" required />
                     </div>
             </div>
+
             <div class="form-group row">
                 <label for="preço" class="col-sm-2 col-form-label">Preço</label>
                     <div class="col-sm-10">
@@ -22,7 +31,7 @@
             <div class="form-group row">
                 <label for="CodigodeBarras" class="col-sm-2 col-form-label">Codigo de Barras</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="codigodebarras" name="codigodebarras" required >
+                        <input type="number" class="form-control" id="codigodebarras" name="codigodebarras" required >
                     </div>
             </div>
             <div class="form-group row">
@@ -45,11 +54,13 @@
             </div>
             <div class="form-group row">
                 <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    <button type="submit" class="btn btn-primary">Editar</button>
+                    <a href="index.php"></a>
                 
                 </div>
             </div>
         </div>
+    </div>
         </form>        
 </section>
 </body>

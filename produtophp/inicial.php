@@ -60,7 +60,7 @@
                 </div>
 
                 <div>
-                    <a href="src/editar.php">Editar</a>
+                    <a href="editar.php" target="_blank">Editar</a>
                 </div>
             </div>
 

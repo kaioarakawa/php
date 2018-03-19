@@ -1,0 +1,38 @@
+header {
+    background:    #e2171d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+section#as {
+    color: white;
+    background-image: url("/img/5886f301-bfd6-4461-b27a-956693125652.jpg");
+	background-repeat: no-repeat;
+    padding-top: 25px;
+    height: 500px;
+
+}
+
+
+
+
+footer{
+    font-size: 15px;
+    background-color:red;
+}
+
+footer p{
+    padding-top: 350px;
+    font: weight;
+    color:white;
+    
+}
+
+html {
+    background: red;
+}
+
+
+

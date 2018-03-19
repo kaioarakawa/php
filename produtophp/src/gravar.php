@@ -12,7 +12,12 @@
     }
     
     gravar($_GET['Nome'],$_GET['preço'],$_GET['codigodebarras'],$_GET['quantidade'],$_GET['lote'],$_GET['validade']);
-    echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=/../inicial.php'>";
+    echo "<script>
+    alert('Efetuado Com Sucesso!');
+    window.location.href='/../inicial.php';
+    </script>";
+
 ?>
+
 
 
